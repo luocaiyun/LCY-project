@@ -1,0 +1,103 @@
+body,
+ul,
+ol,
+dl,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+hr,
+div,
+em,
+strong {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "微软雅黑";
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+html {
+    font-size: 26.67vw;
+}
+
+.headerclassification {
+    width: 100%;
+    height: 1rem;
+    font-size: 0rem;
+}
+
+.header-span1 {
+    float: left;
+    font-size: 0.2rem;
+}
+
+.header-span2 {
+    float: right;
+    font-size: 0.15rem;
+    color: cadetblue;
+}
+
+.con {
+    width: 100%;
+    height: 0.3rem;
+    margin-top: 0.2rem;
+    background-color: rgb(240,241,243);
+    font-size: 0.15rem;
+    padding-left: 0.4rem;
+    background-image: url("../../../src/assets/image/4.png");
+    background-size: 0.3rem 0.3rem;
+    background-repeat: no-repeat;
+}
+
+.goods-classifi {
+    width: 100%;
+    height: 1.3rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 0rem;
+    border-bottom: 0.01rem solid lightgray;
+    /* text-align: center; */
+    text-align: left;
+}
+
+.goods-classifi img {
+    width: 40%;
+}
+
+.goods-classifi > div {
+    width: 50%;
+}
+
+.goods-classifi p {
+    font-size: 0.2rem;
+    margin-top: 0.25rem;
+    text-align: left;
+}
+
+.goods-classifi span {
+    font-size: 0.15rem;
+    color: gray;
+    text-align: left;
+}
